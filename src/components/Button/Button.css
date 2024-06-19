@@ -1,0 +1,36 @@
+#examples{
+    margin: 3rem 0 ;
+    color:#a18aba;
+}
+#examples menu{
+    margin: 1rem 0;
+    padding:0;
+    display: flex;
+    gap:0.5rem;
+}
+#examples menu button{
+    border: none;
+    border-radius: 5px;
+    background-color:transparent;
+    font-size: 1.2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0.5rem 1rem;
+    color:#a18aba;
+}
+#examples menu button.active{
+    background-color: #7925d3;
+    color: #ebe7ef;
+}
+#examples menu button:hover{
+    background-color: #140524;
+    color: #ebe7ef;
+}
+#content{
+    background-color: #2f1d43;
+    padding:1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+#content code{
+    font-size: 1rem;
+}

@@ -1,0 +1,34 @@
+main{
+    margin: auto;
+    width: 90%;
+    max-width: 50rem;
+}
+#concept li{
+    text-align: center;
+}
+#concept h1{
+    text-align: center;
+    color:#a18aba;
+}
+#concept{
+    background-color: #140524;
+    padding: 2rem;
+}
+#concept img{
+    height: 4rem;
+    width: 6rem;
+    object-fit: cover;
+}
+#concept ul{
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#concept li p{
+    color:#a18aba;
+}
+#concept h3{
+    color:#a18aba;
+}
